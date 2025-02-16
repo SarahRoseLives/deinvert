@@ -41,7 +41,7 @@ tool also works as a scrambler.
 
 If no input and output file is given, deinvert reads raw 16-bit PCM via stdin
 and outputs in the same format via stdout. The inversion carrier defaults to
-2632 Hz.
+2600 Hz.
 
 ### Simple inversion, WAV input
 
