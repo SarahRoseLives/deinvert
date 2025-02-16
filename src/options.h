@@ -88,8 +88,8 @@ Options GetOptions(int argc, char **argv) {
       {0,                 0,           0, 0  }
   };
 
-  constexpr std::array<float, 8> selectone_carriers(
-      {2632.f, 2718.f, 2868.f, 3023.f, 3196.f, 3339.f, 3495.f, 3729.f});
+  constexpr std::array<float, 10> selectone_carriers(
+      {2600.f, 2700.f, 2800.f, 2900.f, 3000.f, 3100.f, 3200.f, 3300.f, 3400.f, 3500.f});
 
   options.frequency_hi = selectone_carriers.at(0);
 
@@ -155,7 +155,7 @@ Options GetOptions(int argc, char **argv) {
 
   if (!carrier_preset_set && !carrier_frequency_set)
     std::cerr << "deinvert: warning: carrier frequency not set, trying "
-              << "2632 Hz\n";
+              << "2600 Hz\n";
 
   if (options.input_type == InputType::stdin && !samplerate_set)
     throw std::runtime_error("must specify sample rate for stdin; use the -r option");
