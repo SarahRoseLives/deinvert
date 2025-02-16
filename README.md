@@ -106,14 +106,17 @@ Descrambling a live FM channel at 27 Megahertz from an RTL-SDR, setting 4:
 
 | No | Frequency |
 | -- | --------- |
-|  1 | 2632 Hz   |
-|  2 | 2718 Hz   |
-|  3 | 2868 Hz   |
-|  4 | 3023 Hz   |
-|  5 | 3196 Hz   |
-|  6 | 3339 Hz   |
-|  7 | 3495 Hz   |
-|  8 | 3729 Hz   |
+|  1 | 2600 Hz   |
+|  2 | 2700 Hz   |
+|  3 | 2800 Hz   |
+|  4 | 2900 Hz   |
+|  5 | 3000 Hz   |
+|  6 | 3100 Hz   |
+|  7 | 3200 Hz   |
+|  8 | 3300 Hz   |
+|  9 | 3400 Hz   |
+| 10 | 3500 Hz   |
+
 
 ## Troubleshooting
 
